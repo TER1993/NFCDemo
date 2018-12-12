@@ -30,7 +30,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.nfcdemo.R;
+import com.spd.nfcdemo.R;
 import com.pstreets.nfc.dataobject.mifare.MifareBlock;
 import com.pstreets.nfc.dataobject.mifare.MifareClassCard;
 import com.pstreets.nfc.dataobject.mifare.MifareSector;

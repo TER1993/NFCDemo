@@ -1,4 +1,4 @@
-package com.example.nfcdemo;
+package com.spd.nfcdemo;
 
 import org.junit.Test;
 

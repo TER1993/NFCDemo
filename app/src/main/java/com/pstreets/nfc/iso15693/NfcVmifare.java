@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.nfcdemo.R;
+import com.spd.nfcdemo.R;
 import com.pstreets.nfc.dataobject.iso15693.NfcVUtil;
 
 import java.io.IOException;
