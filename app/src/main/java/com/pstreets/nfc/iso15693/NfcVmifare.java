@@ -159,7 +159,7 @@ public class NfcVmifare extends ListActivity {
 									public void onClick(DialogInterface dialog,
 											int which) {
 										Intent callGPSSettingIntent = new Intent(
-												android.provider.Settings.ACTION_WIRELESS_SETTINGS);
+												android.provider.Settings.ACTION_NFC_SETTINGS);
 										startActivity(callGPSSettingIntent);
 									}
 								})
