@@ -96,9 +96,12 @@ public class NfcVmifare extends ListActivity {
 				try {
 					mNfcV.connect();
 					NfcVUtil mNfcVutil = new NfcVUtil(mNfcV);
-					mNfcVutil.writeBlock(14, new byte[] { 1, 1, 1, 1 });
-					String getdate = mNfcVutil.readOneBlock(14);
-					main_info.append(getdate);
+					for (int i = 10; i < 20; i++) {
+						mNfcVutil.writeBlock(i, new byte[] { 1, 1, 1, 1 });
+						String getdate = mNfcVutil.readOneBlock(i);
+						main_info.append(getdate);
+					}
+
 					Toast.makeText(NfcVmifare.this, "write success", Toast.LENGTH_SHORT)
 							.show();
 					mNfcV.close();
